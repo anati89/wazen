@@ -71,5 +71,5 @@ And enjoy with choosing the model and word:
 
 
 ## Contacts
-Abdullah Al-Anati [LinkedIn](https://www.linkedin.com/in/abdullah-al-anati-56a13a53/)
-Osama Sabri LinkedIn
+ * Abdullah Al-Anati [LinkedIn](https://www.linkedin.com/in/abdullah-al-anati-56a13a53/)
+ * Osama Sabri [LinkedIn](https:https://www.linkedin.com/in/osama-sabri-590079138)
