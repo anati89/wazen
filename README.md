@@ -4,7 +4,7 @@ In this work three supervised machine learning algorithms were trained and valid
 
 And we are using the final models to develop an application that gives the root of the word based on the variation pattern. Noting that we limited our classes to be 110.
 
-**Article talks about this project.** 
+**[Article talks about this project.](https://www.linkedin.com/pulse/wazen-arabic-nlp-project-find-word-variation-pattern-root-al-anati/?published=t)** 
 
 ```
 Ex:
