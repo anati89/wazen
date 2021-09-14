@@ -9,12 +9,12 @@ class Word:
     def __init__(self, word):
         self.word = word
 
-    @staticmethod
-    def extract_features(word):
+    def extract_features(self, word):
         """
         Focus on word structure not frequency.
         Get features from word and store in dict
         """
+        word = self.word
         feat_3 = 1 if len(word) >= 4 and word[-1] == 'ن' else 0
         feat_4 = 1 if len(word) >= 5 and word[0:2] == 'ال' and word[0:4] != 'الأ'else 0
         feat_5 = 1 if len(word) >= 4 and word[1] == 'ا' else 0
@@ -258,7 +258,7 @@ def get_data_target(file_name='data.txt'):
     for sub_list in verb_wazen:
         wazen, verb = sub_list[1], sub_list[0]
         word = Word(verb)
-        features = word.extract_features(word.word)
+        features = word.extract_features()
         Data.append(list(features.values()))
         Target.append(wazen)
     return Data, Target
